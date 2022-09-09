@@ -1,0 +1,3 @@
+#!/bin/bash
+export RUSTFLAGS=-Awarnings
+exec cargo run --release --quiet --bin ${STEP:-stepA_mal} "${@}"

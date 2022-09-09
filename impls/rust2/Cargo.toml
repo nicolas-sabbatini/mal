@@ -1,0 +1,2 @@
+[workspace]
+members = ["stepA_mal", "step0_repl", "step1_read_print"]
